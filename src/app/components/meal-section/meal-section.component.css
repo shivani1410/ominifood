@@ -1,0 +1,55 @@
+.meal-section {
+  margin: 9.6rem 0;
+}
+.meals{
+    background-color: pink;
+    padding: 2rem;
+}
+.meal-img {
+  width: 100%;
+  border-radius: 10%;
+  margin-bottom: 3.2rem;
+}
+.meal-title {
+  /* position: relative; */
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+  color: #333;
+  margin-left: 3.2rem;
+}
+.veg {
+    display: block;
+  position: relative;
+
+}
+.veg::before,
+.veg::after {
+ 
+  content: "";
+  position: absolute;
+
+  width: 1.6rem;
+  height: 1.6rem;
+  left: 2%;
+}
+.veg::before {
+  border: 2px solid #37b24d;
+ 
+}
+.veg::after {
+  background-color: #37b24d;
+  border-radius: 50%;
+  transform: translate(11%, 12%);
+}
+
+.meal-attributes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.meal-attribute{
+    font-size: 1.6rem;
+    color: #555;
+}
