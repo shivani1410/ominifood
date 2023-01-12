@@ -1,0 +1,40 @@
+.header {
+  background-color: #fae5d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8rem;
+  height: 9.6rem;
+}
+.logo-image {
+  height: 2.2rem;
+}
+.main-nav-list {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  list-style: none;
+}
+.main-nav-item:link,
+.main-nav-item:visited {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.main-nav-item:hover,
+.main-nav-item:active {
+  color: #cf711f;
+}
+.main-nav-item.nav-cta:link,
+.main-nav-item.nav-cta:visited {
+  background-color: #e67e22;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.9rem;
+}
+.main-nav-item.nav-cta:hover,
+.main-nav-item.nav-cta:active {
+    background-color: #cf711f;
+}
