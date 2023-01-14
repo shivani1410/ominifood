@@ -9,6 +9,7 @@ import { HeaderSectionComponent } from './components/header-section/header-secti
 import { HowSectionComponent } from './components/how-section/how-section.component';
 import { FeaturedSectionComponent } from './components/featured-section/featured-section.component';
 import { MealSectionComponent } from './components/meal-section/meal-section.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MealSectionComponent } from './components/meal-section/meal-section.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
