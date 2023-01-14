@@ -22,11 +22,13 @@ Default: 1
 Primary:#e67e22
 Tint: #fae5d3
 #f8d8bd
+#fdf2e9
 Shades: #cf711f
 Accents: #37b24d
 #fcc419
 #82c91e
 Grey: #555, #333
+#696868
 
 ---05 SHADOWS
 
@@ -131,4 +133,7 @@ strong{
 .link:hover,.link:active{
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+p,span,a,img{
+  display: inline-block;
 }
