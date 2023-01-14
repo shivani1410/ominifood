@@ -9,6 +9,7 @@
 .logo-image {
   height: 2.2rem;
 }
+
 .main-nav-list {
   display: flex;
   gap: 2.4rem;
@@ -22,6 +23,7 @@
   color: #333;
   transition: all 0.3s;
   text-decoration: none;
+  display: inline-block;
 }
 .main-nav-item:hover,
 .main-nav-item:active {

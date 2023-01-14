@@ -1,14 +1,47 @@
+
 .meal-section {
   margin: 9.6rem 0;
 }
-.meals{
-    background-color: pink;
-    padding: 2rem;
+
+.meals {
+  border-radius: 1.1rem;
+  box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.05);
+  /* margin: 9.6rem 0; */
+  overflow: hidden;
+  transition: all 1s
+}
+.meals:hover{
+    transform: translateY(-1rem);
 }
 .meal-img {
   width: 100%;
-  border-radius: 10%;
-  margin-bottom: 3.2rem;
+  /* border-radius: 10%; */
+  margin-bottom: 1rem;
+}
+.meal-content {
+  padding: 2rem 2rem 3.2rem 2rem;
+}
+.tags {
+  display: flex;
+  gap: 0.3rem;
+}
+.tag {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #333;
+  border-radius: 10rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.tag--veg {
+  background-color: #37b24d;
+}
+.tag--vegan {
+  background-color: #82c91e;
+}
+.tag--paleo {
+  background-color: #fcc419;
 }
 .meal-title {
   /* position: relative; */
@@ -16,16 +49,14 @@
   font-weight: 500;
   margin-bottom: 3.2rem;
   color: #333;
-  margin-left: 3.2rem;
+  padding:0 3.2rem;
 }
 .veg {
-    display: block;
+  display: block;
   position: relative;
-
 }
 .veg::before,
 .veg::after {
- 
   content: "";
   position: absolute;
 
@@ -35,7 +66,6 @@
 }
 .veg::before {
   border: 2px solid #37b24d;
- 
 }
 .veg::after {
   background-color: #37b24d;
@@ -43,13 +73,41 @@
   transform: translate(11%, 12%);
 }
 
-.meal-attributes{
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.meal-attribute {
+  font-size: 1.6rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* justify-content: center; */
+}
+.material-symbols-rounded {
+  color: #cf711f;
+  
+}
+.star {
+    font-size: 2rem;
+  font-variation-settings: "FILL" 1;
+}
+
+.lists{
     list-style: none;
+    font-size: 1.8rem;
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    gap: 1.8rem;
 }
-.meal-attribute{
-    font-size: 1.6rem;
-    color: #555;
+.list{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.check-icon{
+    font-size: 2.4rem;
 }
