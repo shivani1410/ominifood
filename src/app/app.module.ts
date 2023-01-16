@@ -11,6 +11,7 @@ import { FeaturedSectionComponent } from './components/featured-section/featured
 import { MealSectionComponent } from './components/meal-section/meal-section.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
+import { PricingSectionComponent } from './components/pricing-section/pricing-section.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TestimonialSectionComponent } from './components/testimonial-section/te
     HowSectionComponent,
     FeaturedSectionComponent,
     MealSectionComponent,
-    TestimonialSectionComponent
+    TestimonialSectionComponent,
+    PricingSectionComponent
   ],
   imports: [
     BrowserModule,

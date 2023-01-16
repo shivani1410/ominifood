@@ -87,27 +87,9 @@
   gap: 1rem;
   /* justify-content: center; */
 }
-.material-symbols-rounded {
-  color: #cf711f;
-  
-}
+
 .star {
     font-size: 2rem;
   font-variation-settings: "FILL" 1;
 }
 
-.lists{
-    list-style: none;
-    font-size: 1.8rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.8rem;
-}
-.list{
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-}
-.check-icon{
-    font-size: 2.4rem;
-}
