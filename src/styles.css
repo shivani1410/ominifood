@@ -24,6 +24,8 @@ Tint: #fae5d3
 #f8d8bd
 #fdf2e9
 Shades: #cf711f
+#5c320e
+#45260a
 Accents: #37b24d
 #fcc419
 #82c91e
@@ -161,7 +163,7 @@ strong{
   color: #cf711f;
   
 }
-.btn:link, .btn:visited{
+.btn:link, .btn:visited,.btn{
   display: inline-block;
     padding: 1.6rem 3.2rem;
     text-decoration: none;
@@ -194,4 +196,8 @@ strong{
 }
 .margin-bottom-md{
   margin-bottom: 4.8rem !important;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.7rem rgba(253, 242, 233, 0.918);
 }
