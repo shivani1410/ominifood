@@ -12,6 +12,7 @@ import { MealSectionComponent } from './components/meal-section/meal-section.com
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
 import { PricingSectionComponent } from './components/pricing-section/pricing-section.component';
+import { CtaSectionComponent } from './components/cta-section/cta-section.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PricingSectionComponent } from './components/pricing-section/pricing-se
     FeaturedSectionComponent,
     MealSectionComponent,
     TestimonialSectionComponent,
-    PricingSectionComponent
+    PricingSectionComponent,
+    CtaSectionComponent,
   ],
   imports: [
     BrowserModule,
