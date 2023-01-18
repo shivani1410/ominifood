@@ -31,6 +31,7 @@ Accents: #37b24d
 #82c91e
 Grey: #555, #333
 #696868
+#767676
 
 ---05 SHADOWS
 
@@ -200,4 +201,7 @@ strong{
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.7rem rgba(253, 242, 233, 0.918);
+}
+.logo-image {
+  height: 2.2rem;
 }
