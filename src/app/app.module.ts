@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
 import { PricingSectionComponent } from './components/pricing-section/pricing-section.component';
 import { CtaSectionComponent } from './components/cta-section/cta-section.component';
+import { FooterSectionComponent } from './components/footer-section/footer-section.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CtaSectionComponent } from './components/cta-section/cta-section.compon
     TestimonialSectionComponent,
     PricingSectionComponent,
     CtaSectionComponent,
+    FooterSectionComponent,
   ],
   imports: [
     BrowserModule,
