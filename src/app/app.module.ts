@@ -27,7 +27,7 @@ import { FooterSectionComponent } from './components/footer-section/footer-secti
     TestimonialSectionComponent,
     PricingSectionComponent,
     CtaSectionComponent,
-    FooterSectionComponent,
+    FooterSectionComponent
   ],
   imports: [
     BrowserModule,
