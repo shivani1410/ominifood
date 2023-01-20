@@ -54,3 +54,16 @@
     font-size: 7.2rem;
   }
 }
+
+/* width 550px */
+@media(max-width:35em){
+  .step-img-box:nth-child(2){
+    grid-row: 1;
+  }
+  .step-img-box:nth-child(6){
+    grid-row: 5;
+  }
+  .step-img-box{
+    transform: translateY(2.4rem);
+  }
+}

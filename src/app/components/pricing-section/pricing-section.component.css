@@ -140,3 +140,15 @@
     right: -15%;
   }
 }
+/* width 720 px*/
+@media (max-width: 45em) {
+  .pricing {
+    width: 100%;
+  }
+  .pricing--complete::after {
+    font-size: 1.2rem;
+    padding: 0.4rem 4.8rem;
+    right: -13%;
+    top: 6%;
+  }
+}

@@ -244,3 +244,27 @@ strong {
 /*width 916px*/
 @media (max-width: 58em) {
 }
+/* width 750 px*/
+@media(max-width:45em){
+  .grid--4-cols,.grid--3-cols{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+/* width 550px */
+@media(max-width:35em){
+  .grid{
+    row-gap: 6.4rem;
+  column-gap: 2.4rem;
+  }
+  .grid--2-cols,
+  .grid--4-cols{
+    grid-template-columns: 1fr;
+  }
+  /* .grid--3-cols {
+    grid-template-columns: 1fr;
+  } */
+  .btn,.btn:link,.btn:visited{
+    padding: 2.4rem;
+    font-size: 1.8rem;
+  }
+}
