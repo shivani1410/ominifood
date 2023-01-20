@@ -99,3 +99,13 @@
     grid-template-columns: 1fr;
   }
 }
+/* width 550px */
+@media(max-width:35em){
+  .grid-cta{
+    grid-template-columns: 1fr;
+  }
+  .cta-img{
+    grid-row: 1;
+    height: 32rem;
+  }
+}

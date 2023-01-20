@@ -81,3 +81,30 @@
     row-gap: 4.8rem;
   }
 }
+/* width 720 px*/
+@media(max-width:45em){
+  .grid-footer{
+    grid-template-columns: repeat(6,1fr);
+  }
+  .address-col,.logo{
+    grid-column: span 3;
+  }
+  .copyright{
+    padding-right: 1.6rem;
+  }
+  .address{
+    padding-right: 1.6rem;
+  }
+  .cols{
+    grid-row: 1;
+    grid-column: span 2;
+  }
+ 
+}
+
+/* width 550px */
+@media(max-width:35em){
+ .foot-section{
+  padding: 1.6rem;
+ }
+}
