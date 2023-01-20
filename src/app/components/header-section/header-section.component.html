@@ -1,12 +1,28 @@
-<header class="header">
-    <img src="../../../assets/omnifood-logo.png" alt="Logo" class="logo-image">
-<nav class="main-nav">
+<header class="header" [ngClass]="{ 'nav-open': mobileNav == true }">
+  <img src="../../../assets/omnifood-logo.png" alt="Logo" class="logo-image" />
+  <nav class="main-nav">
     <ul class="main-nav-list">
-        <li><a href="#" class="main-nav-item">Section 1</a> </li>
-        <li><a href="#" class="main-nav-item">Section 2</a> </li>
-        <li><a href="#" class="main-nav-item">Section 3</a> </li>
-        <li><a href="#" class="main-nav-item">Section 4</a> </li>
-        <li><a href="#" class="main-nav-item nav-cta">Section 5</a> </li>
+      <li><a href="#" class="main-nav-item">How it works</a></li>
+      <li><a href="#" class="main-nav-item">Meals</a></li>
+      <li><a href="#" class="main-nav-item">Testimonials</a></li>
+      <li><a href="#" class="main-nav-item">Pricing</a></li>
+      <li><a href="#" class="main-nav-item nav-cta">Try For Free</a></li>
     </ul>
-</nav>
+  </nav>
+  <button class="btn-mobile-nav">
+    <span
+      class="material-symbols-rounded icon-mobile-nav"
+      name="menu"
+      (click)="openNav()"
+    >
+      menu
+    </span>
+    <span
+      class="material-symbols-rounded icon-mobile-nav"
+      name="close"
+      (click)="openNav()"
+    >
+      close
+    </span>
+  </button>
 </header>
