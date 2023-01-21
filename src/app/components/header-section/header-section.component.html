@@ -1,12 +1,15 @@
-<header class="header" [ngClass]="{ 'nav-open': mobileNav == true }">
-  <img src="../../../assets/omnifood-logo.png" alt="Logo" class="logo-image" />
+<header class="header" [ngClass]="{ 'nav-open': mobileNav == true ,'sticky':sticky==true}">
+ <a (click)="scrollToView('#')">
+
+   <img src="../../../assets/omnifood-logo.png" alt="Logo" class="logo-image" />
+ </a> 
   <nav class="main-nav">
     <ul class="main-nav-list">
-      <li><a href="#" class="main-nav-item">How it works</a></li>
-      <li><a href="#" class="main-nav-item">Meals</a></li>
-      <li><a href="#" class="main-nav-item">Testimonials</a></li>
-      <li><a href="#" class="main-nav-item">Pricing</a></li>
-      <li><a href="#" class="main-nav-item nav-cta">Try For Free</a></li>
+      <li><a class="main-nav-item" (click)="scrollToView('how')">How it works</a></li>
+      <li><a  class="main-nav-item" (click)="scrollToView('meal')">Meals</a></li>
+      <li><a class="main-nav-item" (click)="scrollToView('testimonial')">Testimonials</a></li>
+      <li><a  class="main-nav-item" (click)="scrollToView('pricing')">Pricing</a></li>
+      <li><a  class="main-nav-item nav-cta" (click)="scrollToView('cta')">Try For Free</a></li>
     </ul>
   </nav>
   <button class="btn-mobile-nav">
