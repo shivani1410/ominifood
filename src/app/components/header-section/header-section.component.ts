@@ -17,8 +17,13 @@ export class HeaderSectionComponent implements AfterViewInit {
     this.mobileNav = !this.mobileNav;
     console.log(this.mobileNav);
   }
-  how:HTMLElement
   scrollToView(element){
+    if(element=="#"){
+      window.scrollTo({
+        top:0,
+        behavior:"smooth"
+      })
+    }
     document.getElementById(element)?.scrollIntoView({behavior:"smooth"});
     if(this.mobileNav){
       this.mobileNav=false
@@ -29,7 +34,6 @@ sticky:boolean=false
 addSticky(){
  const sectionHero=document.querySelector('.section-hero')!
   const obs=new IntersectionObserver(entries=>{
-console.log(entries[0])
 const ent=entries[0]
 if(!ent.isIntersecting){
 this.sticky=true
