@@ -11,5 +11,10 @@ export class CtaSectionComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  name:string=""
+  onUpdateName(event:any){
+    this.name=event.target.value
+    // console.log(event.target)
+    console.log(this.name)
+  }
 }
